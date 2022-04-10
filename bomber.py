@@ -120,7 +120,7 @@ def do_zip_update():
     else:
         mesgdcrt.FailureMessage("Unable to update kunjuttanBomb.")
         mesgdcrt.WarningMessage(
-            "Grab The Latest one From https://github.com/TheSpeedX/TBomb.git")
+            "Grab The Latest one From https://github.com/amalthahsy/kunjuttanBomb.git")
 
     sys.exit()
 
@@ -149,12 +149,12 @@ def do_git_update():
         mesgdcrt.GeneralMessage(
             "Please run the script again to load the latest version")
     else:
-        mesgdcrt.FailureMessage("Unable to update TBomb.")
+        mesgdcrt.FailureMessage("Unable to update kunjuttan.")
         mesgdcrt.WarningMessage("Make Sure To Install 'git' ")
         mesgdcrt.GeneralMessage("Then run command:")
         print(
             "git checkout . && "
-            "git pull https://github.com/TheSpeedX/TBomb.git HEAD")
+            "git pull https://github.com/amalthahsy/kunjuttanBomb.git HEAD")
     sys.exit()
 
 
@@ -179,8 +179,8 @@ def check_for_updates():
         mesgdcrt.GeneralMessage("Starting update...")
         update()
     else:
-        mesgdcrt.SuccessMessage("TBomb is up-to-date")
-        mesgdcrt.GeneralMessage("Starting TBomb")
+        mesgdcrt.SuccessMessage("kunjuttan is up-to-date")
+        mesgdcrt.GeneralMessage("Starting kunjuttan")
 
 
 def notifyen():
@@ -233,7 +233,7 @@ def get_mail_info():
 
 def pretty_print(cc, target, success, failed):
     requested = success+failed
-    mesgdcrt.SectionMessage("Bombing is in progress - Please be patient")
+    mesgdcrt.SectionMessage("Kunjuttan on the way - Please be patient")
     mesgdcrt.GeneralMessage(
         "Please stay connected to the internet during bombing")
     mesgdcrt.GeneralMessage("Target       : " + cc + " " + target)
