@@ -48,15 +48,15 @@ Before continuing make sure following requirements are satisfied:
 - Python version greater than or equal to 3.4 is installed
 - pip is installed for Python 3
 
-Install `tbomb` package by running:
+Install `kunjuttanBomb` package by running:
 
 ```shell script
-pip3 install tbomb
+pip3 install kunjuttanBomb
 ```
 
-Run TBomb by just typing:
+Run kunjuttanBomb by just typing:
 ```shell script
-tbomb
+kunjuttanBomb
 ```
 
 ### Install from GIT
@@ -65,9 +65,9 @@ tbomb
 
 Git installation methods are not universal and are likely to differ between distributions so installing Git as per the given instructions below may not work. Please check out how to install Git for your Linux distribution [here](https://git-scm.com/). Commands below provide instructions for Debian-based systems.
 
->Running `TBomb.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
+>Running `kunjuttan.sh` as sudo miscofigures files ownership. It is recommended not to run it as sudo
 
-Run these commands to clone and run TBomb.
+Run these commands to clone and run kunjuttanBomb.
 
 #### For Termux
 
@@ -76,8 +76,8 @@ To use the bomber type the following commands in Termux:
 pkg install git -y 
 pkg install python -y 
 git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-./TBomb.sh
+cd kunjuttanBomb
+./kunjuttan.sh
 ```
 
 #### For iSH
@@ -90,10 +90,10 @@ apk add py3-pip
 apk add ruby
 gem install toilet
 git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
+cd kunjuttanBomb
 pip3 install -r requirements.txt
-chmod +x TBomb.sh
-./TBomb.sh
+chmod +x kunjuttan.sh
+./kunjuttan.sh
 ```
 
 #### For Debian-based GNU/Linux distributions
@@ -102,8 +102,8 @@ To use the application, type in the following commands in GNU/Linux terminal.
 ```shell script
 sudo apt install git
 git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-bash TBomb.sh
+cd kunjuttanBomb
+bash kunjuttan.sh
 ```
 
 #### For MacOS
@@ -124,97 +124,13 @@ brew install python3
 sudo easy_install pip
 sudo pip install --upgrade pip
 git clone https://github.com/TheSpeedX/TBomb.git
-cd TBomb
-bash TBomb.sh
+cd kunjuttanBomb
+bash kunjuttanBomb.sh
 ```
 
 
-##### Missing Tools on MacOS
-
-The package `toilet` cannot be installed yet on macOS. But TBomb does still work.
-
-### Demonstrative Video:
-
-- Watch Indian Bombing Method [here](https://youtu.be/9KWkwsr_QGw)  
-- Watch International Bombing Method [here](https://youtu.be/JqsHkyIcnPM).  
-
-## Contributors
-
-- Catch **[t0xic0der](https://github.com/t0xic0der)** at https://atlasdoc.netlify.app
-- Check **[Avinash](https://github.com/AvinashReddy3108)** at https://github.com/AvinashReddy3108
-- Mail **[scpketer](https://github.com/scpketer)** at scpketer@protonmail.ch
-- Mail **[0n1cOn3](https://github.com/0n1cOn3)** at 0n1cOn3@gmx.ch
-- Ping **Rieltar** at https://t.me/RieltarReborn
 
 
-### Donators:
-
-- **[34D30Y](34db0y@protonmail.com)**
-- **SC AMAN**
-
-### TODO:
-
-- [x] Make Code More Readable and Extensible
-- [ ] Add More Mail Spam APIs
-- [ ] Add More SMS Spam APIs
-- [ ] Add More Call Spam APIs
-- [ ] Resolve threading issue in some devices
-
-## FAQ
-
-**Q:** Is there any TBomb Website/App ?
-
-**A:** There is no official website/app yet.The only official releases of TBomb are published in [Github](https://github.com/TheSpeedX/TBomb) and [PyPi](https://pypi.org/project/tbomb)
-##
-**Q:** Poor Internet Connection Detected:
-
-**A:** Here are a few stuff you can try:
-- Check your connection.
-- Make sure `openssl` is installed.
-- Try to `ping` any remote site/address to be sure.
-- Try to reinstall if nothing works.
-##
-**Q:** Do you support "X" Country?
-
-**A:** Most Countries are supported for SMS and only India for calls. The SMS delivery rate might be different for different countries.
-##
-**Q:** Can you add support for "X" Country?
-
-**A:** We do what we can, but we cannot promise. Please stay tuned for future support. If you are ready to help then maybe we can do faster.
-##
-**Q:** Why is the limit so low?
-
-**A:** Due the amount of requests, the APIs can die. To prevent a bigger outtake of TBomb, it has been limited. 
-##
-**Q:** Help, I got the error that the requirements aren't installed, even when the installer has successfully reached the main menu
-
-**A:** First, make sure `python3` and `pip3` are installed. 
-- The Easy Method:  
-   `pip3 install tbomb`  
-    Then execute by simply running `tbomb`
-- The Git Method:  
-    Clone the repo and Switch to the TBomb Directory and execute this command:  
-    `pip3 install -r requirements.txt`
-##
-**Q:** Help, It says `command 'tbomb' not found` after installing PIP version!
-
-**A:** Try running `sudo pip3 install tbomb`
-##
-**Q:** Help, I can't execute TBomb.sh!
-
-**A:** Run TBomb Directly with `python3 bomber.py`
-##
-**Q:** Should I use VPN? 
-
-**A:** No, If you are facing high fail rate as TBomb can fail due the high response time or API restrictions.
-##
-**Q:** How to get protection ?
-
-**A:** Use OTP blockers and activate DND.
-##
-**Q:** Why does it fail?
-
-**A:** Due to the overuse of script, a bunch of APIs have been taken offline. It is okay if you do not receive all the messages.
 ##
 ### Support
 
