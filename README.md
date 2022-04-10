@@ -1,10 +1,4 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/TheSpeedX/TBomb"><img src="https://i.ibb.co/F4HBKqm/TBomb.png" alt="TBomb"></a>
-  <br>
-  TBomb v2.1b
-  <br>
-</h1>
+
 
 
 <p align="center">A free and open-source SMS/Call bombing application</p>
@@ -224,8 +218,6 @@ The package `toilet` cannot be installed yet on macOS. But TBomb does still work
 ##
 ### Support
 
-For Queries: [Telegram Group](https://t.me/TBombChat)  
-Contributions, issues, and feature requests are welcome!  
-Give a ★ if you like this project!
+
 
 <p align="right"> Last FAQ Update: 08.08.2021 </p>
